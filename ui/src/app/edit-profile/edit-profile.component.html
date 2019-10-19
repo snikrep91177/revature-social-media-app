@@ -1,0 +1,130 @@
+<!-- CARD IMAGE -->
+<div class="card bg-dark text-white overflow-hidden" style="height: 300px">
+  <img src="{{bannerImage}}" class="img-fluid card-img" alt="...">
+  <div class="card-img-overlay">
+    <h3 class="card-title">{{currentUser.firstName}} {{currentUser.lastName}}</h3>
+    <p class="card-text"></p>
+    <p class="card-text"></p>
+  </div>
+</div>
+
+
+<!-- CARD  -->
+<div class="card">
+  <div class="card-header">
+    <h5>Profile</h5>
+  </div>
+  <div class="card-body">
+    <div class="form-group row align-items-center">
+      <label for="name" class="col-2 col-form-label">Name</label>
+      <div class="col-4">
+        <input type="text" class="form-control" id="name"
+          placeholder="{{currentUser.firstName}} {{currentUser.lastName}}">
+      </div>
+
+      <div class="custom-control custom-radio col-auto">
+        <input name="nameRadio" class="custom-control-input" type="radio" id="nameShow">
+        <label class="custom-control-label" for="nameShow">
+          Show
+        </label>
+      </div>
+
+      <div class="custom-control custom-radio col-auto">
+        <input name="nameRadio" class="custom-control-input" type="radio" id="nameHide">
+        <label class="custom-control-label" for="nameHide">
+          Hide
+        </label>
+      </div>
+    </div>
+
+
+    <div class="form-group row align-items-center">
+      <label for="email" class="col-2 col-form-label">Email</label>
+      <div class="col-4">
+        <input type="email" class="form-control" id="email" placeholder="{{currentUser.email}} {{currentUser.email}}">
+      </div>
+
+      <div class="custom-control custom-radio col-auto">
+        <input name="emailRadio" class="custom-control-input" type="radio" id="emailShow">
+        <label class="custom-control-label" for="emailShow">
+          Show
+        </label>
+      </div>
+
+      <div class="custom-control custom-radio col-auto">
+        <input name="emailRadio" class="custom-control-input" type="radio" id="emailHide">
+        <label class="custom-control-label" for="emailHide">
+          Hide
+        </label>
+      </div>
+    </div>
+
+
+    <div class="form-group row align-items-center">
+      <label for="birthday" class="col-2 col-form-label">Birthday</label>
+      <div class="col-4">
+        <input type="date" class="form-control" id="birthday"
+          placeholder="{{currentUser.birthdate}} {{currentUser.birthdate}}">
+      </div>
+
+      <div class="custom-control custom-radio col-auto">
+        <input name="birthdayRadio" class="custom-control-input" type="radio" id="birthdayShow">
+        <label class="custom-control-label" for="birthdayShow">
+          Show
+        </label>
+      </div>
+
+      <div class="custom-control custom-radio col-auto">
+        <input name="birthdayRadio" class="custom-control-input" type="radio" id="birthdayHide">
+        <label class="custom-control-label" for="birthdayHide">
+          Hide
+        </label>
+      </div>
+    </div>
+
+
+    <div class="form-group row align-items-center">
+      <label for="profession" class="col-2 col-form-label">Profession</label>
+      <div class="col-4">
+        <input type="text" class="form-control" id="profession"
+          placeholder="{{currentUser.occupation}} {{currentUser.occupation}}">
+      </div>
+
+      <div class="custom-control custom-radio col-auto">
+        <input name="professionRadio" class="custom-control-input" type="radio" id="professionShow">
+        <label class="custom-control-label" for="professionShow">
+          Show
+        </label>
+      </div>
+
+      <div class="custom-control custom-radio col-auto">
+        <input name="professionRadio" class="custom-control-input" type="radio" id="professionHide">
+        <label class="custom-control-label" for="professionHide">
+          Hide
+        </label>
+      </div>
+    </div>
+
+
+    <div class="form-group row align-items-center">
+      <label for="hobby" class="col-2 col-form-label">Hobby</label>
+      <div class="col-4">
+        <input type="text" class="form-control" id="hobby" placeholder="{{currentUser.hobbies}} {{currentUser.hobbies}}">
+      </div>
+
+      <div class="custom-control custom-radio col-auto">
+        <input name="hobbyRadio" class="custom-control-input" type="radio" id="hobbyShow">
+        <label class="custom-control-label" for="hobbyShow">
+          Show
+        </label>
+      </div>
+
+      <div class="custom-control custom-radio col-auto">
+        <input name="hobbyRadio" class="custom-control-input" type="radio" id="hobbyHide">
+        <label class="custom-control-label" for="hobbyHide">
+          Hide
+        </label>
+      </div>
+    </div>
+  </div>
+</div>

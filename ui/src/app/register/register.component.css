@@ -1,0 +1,28 @@
+#register-container {   
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    height: 100%;
+    margin: 0;
+    
+}
+
+#jumbotron {
+    padding: 0;
+    padding: 15px;
+    width: 75%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.6);    
+    color: white;
+}
+
+#jumbotron h1 {
+    cursor: default;
+}
+
+#btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}

@@ -1,0 +1,14 @@
+#post-feed {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 80vh;
+    height: 100%;   
+    padding: 10px;
+    width: 75vw;
+   
+}
+
+#feed-container {
+    padding-top: 20px;
+}

@@ -1,0 +1,49 @@
+<!-- CARD IMAGE -->
+<div class="card bg-dark text-white overflow-hidden" style="height: 300px">
+  <img src="{{bannerImage}}" class="img-fluid card-img" alt="...">
+  <div class="card-img-overlay">
+    <h3 class="card-title">{{currentUser.firstName}} {{currentUser.lastName}}</h3>
+    <p class="card-text"></p>
+    <p class="card-text"></p>
+  </div>
+  <div class="btn btn-secondary btn-sm" *ngIf="logUser === currentUser" routerLink="/editProfile">Edit Profile</div>
+</div>
+
+
+<!-- CARD  -->
+<div class="card">
+  <div class="card-header">
+    <h5>Profile</h5>
+  </div>
+  <div class="card-body">
+    <div class="row align-items-center m-4">
+      <h5 class="col ">Name</h5>
+      <h5 class="col">{{currentUser.firstName}} {{currentUser.lastName}}</h5>
+    </div>
+
+
+
+    <div class="row align-items-center m-4">
+      <h5 class="col-3">Email</h5>
+      <h5 class="col-4">{{currentUser.email}}</h5>
+    </div>
+
+
+    <div class="row align-items-center m-4">
+      <h5 class="col-3">Birthday</h5>
+      <h5>{{currentUser.birthdate}}</h5>
+    </div>
+
+
+    <div class="row align-items-center m-4">
+      <h5 class="col-3">Occupation</h5>
+      <h5 class="col-4">{{currentUser.occupation}}</h5>
+    </div>
+
+
+    <div class="row align-items-center m-4">
+      <h5 class="col">Hobby</h5>
+      <h5 class="col">{{currentUser.hobbies}}</h5>
+    </div>
+  </div>
+</div>

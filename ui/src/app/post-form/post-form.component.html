@@ -1,0 +1,16 @@
+<div id="register-container" class="container-fluid">
+  <div id="jumbotron" class="jumbotron min-vh-100">
+    <div class="row">
+      <div class="col-12 p-0">
+        <h1 class="display-4">Add comment</h1>
+        <div class="form-group col-md-9 p-3">
+          <input class="form-control" type="text" id="post" name="post" [(ngModel)]='postText'
+            placeholder="enter comment">
+        </div>
+
+      </div>
+    </div>
+
+    <button routerLink="/feed" (click)="setPost()" type=”button”>Button</button>
+  </div>
+</div>

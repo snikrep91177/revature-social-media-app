@@ -1,0 +1,7 @@
+<div class="card" style="width: 100%;" *ngIf="currentUser">
+  <img style="width: 100%;" [src]="userImage" class="card-img-top center" alt="profile image">
+  <div class="card-body text-center">
+      <h4 class="card-title"><a href="#" class="card-link">{{currentUser.username}}</a></h4>    
+    <a href="#" class="card-link">Posts</a>
+  </div>
+</div>

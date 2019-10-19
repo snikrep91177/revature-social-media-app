@@ -1,0 +1,14 @@
+<div class="wrapper">
+    <nav id="sidebar">
+        <app-usercard></app-usercard>
+        <div id="sidebar-header">
+            <h3>Friends List</h3>
+        </div>
+
+        <ul class="list-unstyled components" *ngIf="currentUser">
+            <li class="active" *ngFor="let b of userList">
+                <a [routerLink]="['/profile', b.user_id]" routerLinkActive="router-link-active" >{{ b.firstName }} {{  b.lastName }}</a>
+            </li>
+        </ul>
+    </nav>
+</div>
